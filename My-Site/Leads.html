@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/lead.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  
+    
+</head>
+<body>
+    <header>
+       
+        <div class="navbar">
+            <a href="Home.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Sales
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Leads</a>
+                    <a href="#">Deals</a>
+                </div>
+            </div> 
+            <a href="#news">Resources</a>
+
+        </div>
+
+        <details class="min-nav">
+            <summary>
+                <img class="hamburger-logo" src="./img's/icons8-hamburger-menu-50.png" alt="">
+            </summary>
+            <ul class="minnav-ul">
+                <a href="./Home.html"><li>Home</li></a>
+            <li style="padding-left: 5px;">
+                <details>
+                    <summary style="display: flex;">
+                        <img class="dropdown-logo" src="./img's/icons8-expand-arrow-50.png" alt="">Sales
+                    </summary>
+                    <ul style="padding-left: 35px;">
+                        <a href="./Leads.html"><li class="sales-drop">Leads</li></a>
+                        <a href=""><li class="sales-drop">Deals</li></a>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <a href="">Resources</a>
+            </li></ul>
+        </details>
+    </header>
+
+
+    <div class="leads-container">
+        <div class="lead-head">
+            <div class="lead-left">
+                <img class="leads-logo" src="./img's/lead_120.png" alt="">
+                <div class="left-content">
+                    <p>Leads</p>
+                    <details>
+                        <summary>
+                            <p class="p2">Recently Viewed <img class="dropdown-logo" src="./img's/icons8-dropdown-50.png" alt=""></p>
+                        </summary>
+                       
+                            <ul>
+                                 <p class="p3">LIST VIEW</p>
+                                <li>All Open Leads</li>
+                                <li>My Unread Leads</li>
+                                <li>Recently Viewed</li>
+                                <li>Recently Viewed Leads</li>
+                                <li>Today's Leads</li>
+                                <li>View - Custom 1</li>
+                                <li>view - Custom 2</li>
+                            </ul>
+                    </details>
+                </div>
+
+            </div>
+
+            <button>New</button>
+        </div>
+
+        <div class="lead-menu">
+            <div class="lead-menu-left"><p>
+                1 item • Updated 5 minutes ago
+            </p></div>
+            <div class="lead-menu-right">
+                <input type="search" placeholder="Search this list....">
+                <div class="div1"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+                <div class="div"></div>
+            </div>
+        </div>
+
+       
+  
+ 
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th class="w-10">
+            <input type="checkbox" />
+          </th>
+          <th>
+            Name
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th>
+            Title
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th>
+            Company
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th>
+            Phone
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th>
+            Mobile
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th>
+            Email
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th>
+            Lead Status
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th style="max-width: 80px; overflow: hidden; text-overflow: ellipsis;">
+            Owner ...
+            <i class="fas fa-sort-down"></i>
+          </th>
+          <th class="w-10"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="w-10">
+            <input type="checkbox" />
+          </td>
+          <td>
+            <a class="table-link" href="./Bertha.html">Bertha Boxer</a>
+          </td>
+          <td>Director of V...</td>
+          <td>Farmers Coo...</td>
+          <td>(850) 644-42...</td>
+          <td></td>
+          <td>
+            <a class="table-link" href="#">bertha@fcof...</a>
+          </td>
+          <td>Working - Co...</td>
+          <td style="max-width: 80px; overflow: hidden; text-overflow: ellipsis;">PC</td>
+          <td>
+            <button>
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
