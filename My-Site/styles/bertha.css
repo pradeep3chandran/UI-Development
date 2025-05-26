@@ -198,14 +198,14 @@
 
 .right-content {
     position: relative;
-    z-index: -1;
+    z-index: 1;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
 .right-content .bertha-btn{
-    border: solid 1px gray;
+    border: solid 1px rgb(30, 36, 67);
     width: 100px;
     display: flex;
     justify-content: center;
@@ -220,16 +220,16 @@
 .right-content table {
     border-collapse: separate; /* changed from collapse to separate to allow border-radius */
     border-spacing: 0;
-    border: 1px solid gray;
+    border: 1px solid rgb(30, 36, 67);
     border-radius: 0.375rem; /* 6px */
     overflow: visible; /* to clip border-radius on inner cells */
 }
 
 .right-content td {
     padding: 5px 15px;
-    border-right: 1px solid gray;
+    border-right: 1px solid rgb(30, 36, 67);
     font-size: 0.8rem;
-    color: rgb(3, 38, 116);
+    color: rgb(30, 36, 67);
     background-color: transparent;
     cursor: pointer;
     user-select: none;
