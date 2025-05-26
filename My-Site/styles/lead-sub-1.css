@@ -1,0 +1,81 @@
+.lead-sub-container{
+    margin: 100px 20px;
+}
+
+.lead-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lead-icons .icons img{
+    height: 15px;
+    background-color: rgb(13, 99, 171);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.lead-icons p{
+    color: rgb(13, 99, 171);
+    font-size: 0.8rem;
+}
+
+.sub-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: solid 1px gray;
+    padding: 25px 0;
+}
+
+.sub-head .leads-logo{
+    background-color: rgb(6, 165, 154);
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 5PX;
+}
+
+.para p{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.open-data{
+    /* display: flex; */
+    
+}
+
+.open-data h4{
+    color: rgb(54, 79, 146);
+    font-weight: 400;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.open-data form{
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px gray;
+}
+.open-data .label{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.open-data .label label{
+    padding-bottom: 5px;
+}
+
+.open-data .input input{
+    border: none;
+    font-size: 0.8rem;outline: none;
+}
+
+
+.open-data .input input:nth-child(5){
+    color: rgb(54, 79, 146);
+}
