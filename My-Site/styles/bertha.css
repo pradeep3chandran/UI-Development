@@ -273,6 +273,13 @@ summary{
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
+@media screen and (max-width: 1000px) {
+    .table-drop-down{
+        right: 0;
+        left: auto;
+    }
+}
+
 .table-drop-down .table-drop-list{
     list-style: none;
     position: relative;
